@@ -1,0 +1,231 @@
+@font-face {
+  font-family: font;
+  src: url(../fonts/Quicksand-SemiBold.ttf); }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: font; }
+
+body {
+  overflow-x: hidden; }
+
+.container-fluid {
+  padding: 0px 30px !important;
+  padding-right: 50px !important; }
+
+.navbar-nav {
+  width: 100% !important;
+  display: flex;
+  justify-content: flex-end; }
+
+.nav-pic {
+  height: 25px;
+  width: 25px; }
+
+.dropbtn {
+  background-color: transparent;
+  color: #0000008c;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  text-decoration: none; }
+  .dropbtn:hover, .dropbtn .nav-link:hover, .dropbtn .active {
+    color: #6316df !important; }
+
+.nav-link:hover, .active {
+  color: #6316df !important; }
+
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-left: -80px;
+  margin-top: 18px; }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block; }
+    .dropdown-content a:hover {
+      background-color: #ddd; }
+
+.show {
+  display: block; }
+
+.login-body {
+  height: 86vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 30px; }
+
+.login-main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px; }
+
+form h1 {
+  /* background-color: #636bff; */
+  border-radius: 20px 20px 0px 0px;
+  height: 10vh;
+  color: #0A0A0A;
+  font-size: 36px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center; }
+
+.logi {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.logi img {
+  width: 50%; }
+
+form {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #f5f5f5; */
+  border-radius: 50px 0px 0px 50px; }
+
+form .inputbox {
+  display: flex;
+  flex-direction: column;
+  width: 80%; }
+
+form .inputbox label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px; }
+
+form .inputbox label span {
+  color: #cf0c26;
+  visibility: hidden;
+  transition: .3s; }
+
+form input {
+  height: 40px;
+  padding: 0px 10px;
+  outline: none;
+  border-radius: 7px;
+  border: 1px solid #0000006b;
+  margin-bottom: 20px;
+  transition: .3s; }
+
+form input:focus {
+  border: 1px solid #6316df; }
+
+form input[type=submit] {
+  border: none;
+  background-color: #6316df;
+  color: #fff;
+  transition: .3s;
+  width: 80%;
+  margin-top: 20px; }
+
+form input[type=submit]:hover {
+  background-color: #7e49d3; }
+
+form input[type=number]::-webkit-inner-spin-button,
+form input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none; }
+
+form a {
+  text-decoration: none; }
+
+footer {
+  height: 14vh;
+  margin-top: 12vh;
+  width: 100%;
+  background-color: #0A0A0A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  color: white; }
+
+footer p {
+  margin: 0; }
+
+footer a {
+  color: white; }
+
+@media (max-width: 768px) {
+  nav img {
+    width: 4rem;
+    height: 4rem; }
+
+  .login-body {
+    grid-template-columns: 30% 70%; } }
+@media (max-width: 500px) {
+  nav img {
+    width: 4rem;
+    height: 4rem; }
+
+  .login-body {
+    grid-template-columns: 100%;
+    height: auto;
+    font-size: 11px; }
+
+  .sec2l, .sec2l a, .sec2l input {
+    font-size: 11px; }
+
+  .logi {
+    display: none; }
+
+  form .inputbox {
+    width: 90%;
+    height: auto; }
+
+  form input[type=submit] {
+    width: 90%; }
+
+  footer {
+    margin-top: 10vh;
+    font-size: 11px; } }
+@media (max-width: 400px) {
+  nav img {
+    width: 4rem;
+    height: 4rem; }
+
+  .login-body {
+    grid-template-columns: 100%;
+    height: auto;
+    font-size: 11px; }
+
+  .sec2l, .sec2l a, .sec2l input {
+    font-size: 11px; }
+
+  .logi {
+    display: none; }
+
+  form .inputbox {
+    width: 100%;
+    height: auto; }
+
+  form input[type=submit] {
+    width: 100%; }
+
+  footer {
+    margin-top: 10vh;
+    font-size: 11px;
+    padding: 0px 10px; } }
+
+/*# sourceMappingURL=login.css.map */

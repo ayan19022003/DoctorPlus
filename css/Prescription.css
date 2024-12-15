@@ -1,0 +1,89 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Quicksand-SemiBold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dwnbtn{
+    margin-bottom: 20px;
+    padding: 7px 15px;
+    border: none;
+    background:#7e49d3;
+    color: #fff;
+    font-family: font;
+    border-radius: 0px 0px 20px 20px;
+}
+.main{
+    width: 100%;
+    border: 1px solid;
+    padding: 30px;
+}
+.top-prec{
+    width: 100%;
+    height: 30vh;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+}
+.top-prec img{
+    height: 10rem;
+    width: 10rem;
+    padding: 10px;
+}
+.tpr{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 10px;
+    text-align: right;
+}
+.tpr h4{
+    font-size: 30px;
+}
+.prec2{
+    margin-top: 5vh;
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+    height: 15vh;
+}
+.prec2 thead, .prec2 tbody{
+    height: 50%;
+}
+.prec2 td{
+    border: 1px solid;
+}
+.prec3{
+    margin-top: 5vh;
+    border: 1px solid;
+    width: 100%;
+    padding: 0px 20px;
+}
+.prec3 td{
+    padding: 20px;
+    width: 50%;
+}
+.prec4{
+    margin-top: 5vh;
+    border: 1px solid;
+    width: 100%;
+}
+.prec4 thead{
+    border-bottom: 1px solid ;
+}
+.prec4 td{
+    padding: 20px;
+}

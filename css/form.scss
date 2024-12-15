@@ -1,0 +1,105 @@
+form{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    border-radius: 50px 0px 0px 50px;
+    h1{
+        /* background-color: #636bff; */
+        border-radius: 20px 20px 0px 0px;
+        height: 10vh;
+        color: #0A0A0A;
+        font-size: 36px;
+        padding: 0px 20px;
+        display: flex;
+        align-items: center;
+    }
+    .inputbox
+    {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        label{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            span{
+                color: #cf0c26;
+                visibility: hidden;
+                transition: .3s;
+            }
+        }
+        textarea{
+            padding:10px 10px;
+            outline: none;
+            border-radius: 7px;
+            border: 1px solid #0000006b;
+            margin-bottom: 20px;
+            transition: .3s;
+            &::placeholder{
+                color: #6c757d;
+            }
+            &:focus
+            {
+                border: 1px solid #6316df;
+            }
+        }
+        select{
+            height: 40px;
+            padding:0px 10px;
+            outline: none;
+            border-radius: 7px;
+            border: 1px solid #0000006b;
+            margin-bottom: 20px;
+            transition: .3s;
+        }
+        input{
+            height: 40px;
+            padding:0px 10px;
+            outline: none;
+            border-radius: 7px;
+            border: 1px solid #0000006b;
+            margin-bottom: 20px;
+            transition: .3s;
+            &::placeholder{
+                color: #6c757d;
+            }
+            &:focus
+            {
+                border: 1px solid #6316df;
+            }
+        }
+        input[type=number]
+        {
+            &::-webkit-outer-spin-button
+            {
+                -webkit-appearance: none;
+            }
+            &::-webkit-inner-spin-button
+            {
+                -webkit-appearance: none;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+    }
+    input[type=submit]
+    {
+        height: 40px;
+        border-radius: 7px;
+        border: none;
+        background-color: #6316df;
+        color: #fff;
+        transition: .3s;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        &:hover
+        {
+            background-color: #7e49d3;
+        }
+    }
+}  

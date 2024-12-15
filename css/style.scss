@@ -1,0 +1,47 @@
+@import 'stater';
+.sec2{
+    /* background-color: aqua; */
+    width: 100%;
+    padding: 0%;
+    position: relative;
+    height: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.sec2l{
+    /* border: 1px solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sec2l{
+    padding: 30px;
+}
+.sec2r{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img{
+        width: 100%;
+    }
+}
+footer{
+    height: 14vh;
+    width: 100%;
+    background-color: #0A0A0A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    color: white;
+    p{
+        margin: 0;
+    }
+    a{
+        color: white;
+    }
+}
+@import 'home_media';

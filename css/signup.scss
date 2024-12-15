@@ -1,0 +1,45 @@
+@import 'stater';
+
+.login-body{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 30px;
+}
+.login-main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.logi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 100%;
+    }
+}
+@import 'form';
+footer{
+    height: 14vh;
+    margin-top: 12vh;
+    width: 100%;
+    background-color: #0A0A0A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    color: white;
+    p{
+        margin: 0;
+    }
+    a{
+        color: white;
+    }
+}
+@import 'signup_media';

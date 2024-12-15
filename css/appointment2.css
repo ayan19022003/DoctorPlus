@@ -1,0 +1,271 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Quicksand-SemiBold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font;
+
+}
+body{
+    overflow-x: hidden;
+    background-color: #f5f5f5!important;
+}
+.container-fluid{
+    padding: 0px 30px!important;
+    padding-right: 50px!important;
+}
+.navbar-nav{
+   width: 100%!important;
+   display: flex;
+   justify-content: flex-end;
+}
+.dropbtn {
+    background-color: transparent;
+    color: #0000008c;
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .nav-link:hover, .active{
+    color: #6316df!important;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-left: -80px;
+    margin-top: 18px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+  .appointment-body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+  }
+  .appointment-body h1{
+    width: 90%;
+    font-size: 30px;
+  }
+  .abmb{
+    width: 90%;
+    padding: 20px;
+    background-color: white;
+    margin-top: 5vh;
+    margin-bottom: 10vh;
+  }
+  .abmb h3{
+    width: 100%;
+    padding: 20px;
+    background-color: #140b2287;
+    color: #fff;
+    font-size: 15px;
+  }
+  .abm{
+    width: 100%;
+  }
+  .dataTables_wrapper{
+    margin-top: 5vh!important;
+  }
+  .nav-pic{
+    height: 25px;
+    width: 25px;
+}
+.dataTables_wrapper{
+  font-size: 14px;
+}
+.dataTables_wrapper a{
+  font-size: 14px;
+}
+.cform, 
+#pass-form{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #f5f5f5; */
+    border-radius: 50px 0px 0px 50px;
+}
+.cform .inputbox, #pass-form .inputbox
+{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.cform .inputbox label, #pass-form .inputbox label{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.cform .inputbox label span, #pass-form .inputbox label span{
+    color: #cf0c26;
+    visibility: hidden;
+    transition: .3s;
+}
+.cform textarea, #pass-form textarea{
+    padding:10px 10px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #0000006b;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.cform input, .cform select, #pass-form input, #pass-form select{
+    height: 40px;
+    padding:0px 10px;
+    outline: none;
+    border-radius: 7px;
+    border: 1px solid #0000006b;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.cform input[type=file],
+#pass-form input[type=file]
+{
+   height: 32px;
+}
+::placeholder{
+    color: #6c757d;
+}
+.cform input:focus,
+.cform textarea:focus,
+#pass-form input:focus,
+#pass-form textarea:focus
+{
+    border: 1px solid #6316df;
+}
+.cform input[type=submit], #pass-form input[type=submit]
+{
+    border: none;
+    background-color: #6316df;
+    color: #fff;
+    transition: .3s;
+    width: 90%;
+    margin-top: 20px;
+}
+.cform input[type=submit]:hover,
+#pass-form input[type=submit]:hover
+{
+    background-color: #7e49d3;
+}
+.cform input[type=number]::-webkit-inner-spin-button,
+.cform input[type=number]::-webkit-outer-spin-button
+{
+    -webkit-appearance: none;
+}
+.cform a{
+    text-decoration: none;
+}
+.modal-lg{
+    max-width:700px ;
+}
+  @media (max-width:768px) {
+    nav img{
+        width: 4rem;
+        height: 4rem;
+    }
+   .abmb{
+    width: 97%;
+    overflow-x:scroll;
+   }
+   .appointment-body h1{
+    width: 97%;
+    font-size: 30px;
+  }
+    .dropdown-content {
+        margin-left: 0px;
+      }
+      .nav-pic{
+        height: 20px;
+        width: 20px;
+    }
+    table tr td, table tr th{
+        font-size: 12px;
+    }
+    .dataTables_wrapper{
+      font-size: 12px;
+    }
+    .dataTables_wrapper a{
+      font-size: 12px;
+    }
+}
+@media (max-width:500px) {
+    
+  nav img{
+        width: 2rem!important;
+        height: 2rem!important;
+    }
+    .abb
+    {
+        overflow-x: auto;
+        overflow-wrap: break-word;
+        width: 100%;
+    }
+    table tr td, table tr th{
+        font-size: 11px;
+    }
+    .appointment-body h1, .appointment-body h1 i{
+        width: 100%;
+        font-size: 25px;
+      }
+      .dataTables_wrapper{
+        width: 230%!important;
+      }
+      .dataTables_length,.dataTables_info
+      {
+        float:left!important;
+      }
+      .dataTables_filter label, .dataTables_paginate{
+        float: right!important;
+      }
+      .dataTables_wrapper{
+        font-size: 11px;
+      }
+      .dataTables_wrapper a{
+        font-size: 11px;
+      }
+}
+@media (max-width:400px) {
+    table tr td, table tr th{
+        font-size: 9px;
+    }
+    .appointment-body h1{
+        width: 100%;
+        font-size: 20px;
+      }
+}

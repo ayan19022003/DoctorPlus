@@ -1,0 +1,27 @@
+@font-face {
+    font-family: font;
+    src: url(../fonts/Quicksand-SemiBold.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: font;
+
+}
+.nav-link:hover, .active{
+    color: #6316df!important;
+  }
+.container-fluid{
+    padding: 0px 30px!important;
+    padding-right: 50px!important;
+}
+.navbar-nav{
+   width: 100%!important;
+   display: flex;
+   justify-content: flex-end;
+}
+.nav-pic{
+    height: 25px;
+    width: 25px;
+}

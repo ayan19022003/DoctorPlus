@@ -1,0 +1,80 @@
+@media (max-width:768px) {
+    nav img{
+        width: 4rem;
+        height: 4rem;
+    }
+   .abmb{
+    width: 97%;
+    overflow-x:scroll;
+   }
+   .appointment-body h1{
+    width: 97%;
+    font-size: 30px;
+  }
+    .dropdown-content {
+        margin-left: 0px;
+      }
+      .nav-pic{
+        height: 20px;
+        width: 20px;
+    }
+    table tr td, table tr th{
+        font-size: 12px;
+    }
+    .dataTables_wrapper{
+      font-size: 12px;
+    }
+    .dataTables_wrapper a{
+      font-size: 12px;
+    }
+}
+@media (max-width:500px) {
+    
+  nav img{
+        width: 2rem!important;
+        height: 2rem!important;
+    }
+    .abb
+    {
+        overflow-x: auto;
+        overflow-wrap: break-word;
+        width: 100%;
+    }
+    table tr td, table tr th{
+        font-size: 11px;
+    }
+    .appointment-body h1{
+        width: 100%;
+        font-size: 25px;
+        i{
+            width: 100%;
+            font-size: 25px;
+          }
+      }
+      .dataTables_wrapper{
+        width: 230%!important;
+      }
+      .dataTables_length,.dataTables_info
+      {
+        float:left!important;
+      }
+      .dataTables_filter label, .dataTables_paginate{
+        float: right!important;
+      }
+      .dataTables_wrapper{
+        font-size: 11px;
+      }
+      .dataTables_wrapper a{
+        font-size: 11px;
+      }
+}
+
+@media (max-width:400px) {
+    table tr td, table tr th{
+        font-size: 9px;
+    }
+    .appointment-body h1{
+        width: 100%;
+        font-size: 20px;
+      }
+}
