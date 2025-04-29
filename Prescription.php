@@ -30,8 +30,8 @@
           <p>Contai<br>
             Purba Medinipur<br>
             West Bengal, 721401<br>
-            Ph: 9883441243<br>
-            ayanmisra2003@gmail.com
+            Ph: 1234567890<br>
+            youremail@gmail.com
           </p>
         </div>
       </div>
